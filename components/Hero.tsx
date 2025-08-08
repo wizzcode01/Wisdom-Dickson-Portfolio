@@ -56,7 +56,7 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
-          <p className="text-c enter md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+          <p className="text-c enter md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl sm:text-center ">
             Hi! I&apos;m Wisdom, a software engineer based in Nigeria.
           </p>
 

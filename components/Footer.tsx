@@ -25,7 +25,7 @@ const Footer = () => {
           achieve your goals.
         </p>
         <a 
-           href="https://wa.me/2349160216387?text=Hi%2C%20I%20came%20across%20your%20service%20and%20I'm%20interested%20in%20learning%20more.%20I%E2%80%99d%20like%20to%20build%20a%20professional%20website.%20Could%20you%20please%20share%20more%20details%3F"
+           href="https://wa.me/2349160216837?text=Hi%2C%20I%20came%20across%20your%20service%20and%20I'm%20interested%20in%20learning%20more.%20I%E2%80%99d%20like%20to%20build%20a%20professional%20website.%20Could%20you%20please%20share%20more%20details%3F"
            target="_blank"
            rel="noopener noreferrer"
           >
@@ -41,7 +41,7 @@ const Footer = () => {
           Copyright © 2025 Wisdom Dickson
         </p>
 
-        <div className="flex items-center md:gap-3 gap-6">
+        <div className="flex items-center md:gap-3 gap-6 mt-5">
           {socialMedia.map((info) => (
             <div
               key={info.id}

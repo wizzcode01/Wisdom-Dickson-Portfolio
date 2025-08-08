@@ -128,11 +128,11 @@ export const BentoGridItem = ({
         >
           {/* change the order of the title and des, font-extralight, remove text-xs text-neutral-600 dark:text-neutral-300 , change the text-color */}
          {id === 1 ? (
-          <div className="flex items-center gap-4">
+          <div className="lg:flex lg:items-center gap-4 md:flex sm:flex col-auto items-center">
             <img
               src="/profile.jpg"
               alt="Profile"
-              className="w-[30%] h-[30%] rounded-full object-cover"
+              className="w-[35%] h-[35%] rounded-full object-cover min-w-[40%] min-h-[40%]"
             />
             <p className="text-white font-light">{description}</p>
           </div>
