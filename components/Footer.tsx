@@ -24,7 +24,11 @@ const Footer = () => {
           Reach out to me today and let&apos;s discuss how I can help you
           achieve your goals.
         </p>
-        <a href="mailto:contact@jsmastery.pro">
+        <a 
+           href="https://wa.me/2349160216387?text=Hi%2C%20I%20came%20across%20your%20service%20and%20I'm%20interested%20in%20learning%20more.%20I%E2%80%99d%20like%20to%20build%20a%20professional%20website.%20Could%20you%20please%20share%20more%20details%3F"
+           target="_blank"
+           rel="noopener noreferrer"
+          >
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
@@ -34,7 +38,7 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2024 Adrian Hajdin
+          Copyright © 2025 Wisdom Dickson
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">

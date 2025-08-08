@@ -83,3 +83,15 @@
     @apply font-bold text-4xl md:text-5xl text-center;
   }
 }
+
+.base-description-style {
+  @apply font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10;
+}
+
+.first-description-style {
+  @apply text-white font-medium leading-relaxed text-[15px] md:text-sm lg:text-base md:max-w-full font-bold;
+}
+
+
+/* In your globals.css or component CSS */
+
